@@ -1,0 +1,235 @@
+.facilities {
+    @media (max-width: $tablet) {
+        width: 993px;
+    }
+}
+
+.facility {
+    margin-bottom: 95px;
+
+    h2 {
+        font-family: $serif;
+        font-size: 36px;
+        font-weight: 700;
+
+        text-align: center;
+
+        margin-bottom: 70px;
+
+        @media (max-width: $phone) {
+            font-size: 70px;
+        }
+    }
+}
+
+.facilities-images {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $phone) {
+        flex-direction: column;
+    }
+
+    img {
+        margin-bottom: 30px;
+
+        @media (max-width: $phone) {
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+        }
+    }
+    h5 {
+        font-family: $serif;
+        font-size: 15px;
+        line-height: 28px;
+
+        text-align: center;
+
+        @media (max-width: $phone) {
+            font-size: 75px;
+            line-height: normal;
+        }
+    }
+
+    .first-facility {
+
+        @media (max-width: $phone) {
+            margin-bottom: 150px;
+            margin-top: 100px;
+        }
+
+        img {
+            margin-top: 20px;
+            margin-bottom: 24px;
+
+            @media (max-width: $phone) {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .second-facility {
+
+        @media (max-width: $phone) {
+            margin-bottom: 150px;
+        }
+
+        img {
+            margin-left: 15px;
+            margin-bottom: 17px;
+
+            @media (max-width: $phone) {
+                display: block;
+                margin: 0 auto;
+                
+            }
+        }
+        
+    }
+    .third-facility {
+
+        @media (max-width: $phone) {
+            margin-bottom: 150px;
+        }
+
+        img {
+            margin-left: 10px;
+
+            @media (max-width: $phone) {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .fourth-facility {
+
+        @media (max-width: $phone) {
+            margin-bottom: 150px;
+        }
+
+        img {
+            margin-left: 18px;
+
+            @media (max-width: $phone) {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.feedback {
+    margin: 0 auto;
+
+    width: 690px;
+
+    h2 {
+        text-align: center;
+
+        font-family: $serif;
+        font-size: 36px;
+        font-weight: 700;
+
+        margin-bottom: 62px;
+
+        @media (max-width: $phone) {
+            font-size: 78px;
+        }
+        
+    }
+
+    .quote-icons {
+        text-align: center;
+
+        margin-top: 10px;
+
+        margin-bottom: 95px;
+
+        img {
+            @media (max-width: $phone) {
+                width: 400px;
+                margin-top: 80px;
+            }
+        }
+
+    }
+}
+
+.feedback-block {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $phone) {
+        flex-direction: column;
+    }
+
+    .feedback-img {
+        display: flex;
+        justify-content: space-between;
+
+        position: relative;
+
+        img:nth-child(odd) {
+            @media (max-width: $phone) {
+                width: 400px;
+            }
+        }
+
+        @media (max-width: $phone) {
+            display: block;
+            margin: 0 auto;
+
+            width: 350px;
+
+        }
+
+        .quote-feedback {
+            position: absolute;
+
+            left: 135px;
+
+
+            @media (max-width: $phone) {
+                left: 275px;
+                top: 10px;
+    
+            }
+           
+        }
+    }
+}
+
+.feedback-text {
+
+    margin-top: 10px;
+    margin-left: 65px;
+
+    p {
+        font-family: $serif;
+        font-size: 16px;
+        font-weight: 400;
+
+        @media (max-width: $phone) {
+            margin-top: 70px;
+            font-size: 40px;
+
+        }
+        
+    }
+
+    h5 {
+        font-family: $serif;
+        font-size: 18px;
+        font-weight: 700;
+
+        text-align: end;
+
+        margin-top: 25px;
+
+        @media (max-width: $phone) {
+            font-size: 35px;
+        }
+    }
+}

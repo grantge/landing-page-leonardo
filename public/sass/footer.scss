@@ -1,0 +1,166 @@
+footer {
+    background-image: url('/images/footer-back.png');
+
+    padding-top: 120px;
+
+    padding-bottom: 60px;
+
+    @media (max-width: $tablet) {
+        width: 993px;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+
+        font-family: $serif;
+        font-size: 36px;
+        font-weight: 700;
+
+        margin-bottom: 40px;
+
+        @media (max-width: $phone) {
+            font-size: 62px;
+            margin-top: 40px;
+        }
+    }
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    max-width: 750px;
+    width: 100%;
+
+    @media (max-width: $phone) {
+        flex-direction: column;
+
+        margin: 0;
+    }
+
+    :first-child {
+        width: 360px;
+        height: 51px;
+
+        font-family: $serif;
+        font-size: 18px;
+        font-weight: 400;
+
+        padding-left: 6px;
+
+        @media (max-width: $phone) {
+            width: 465px;
+            height: 90px;
+            font-size: 35px;
+
+            margin-bottom: 30px;
+        }
+    }
+
+    :last-child {
+        width: 360px;
+        height: 51px;
+
+        font-family: $serif;
+        font-size: 18px;
+        font-weight: 400;
+
+        padding-left: 6px;
+
+        @media (max-width: $phone) {
+            width: 465px;
+            height: 90px;
+            font-size: 35px;
+
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.in-1:focus { 
+    border: 1.5px solid rgb(172, 172, 172);     
+    outline: 0;
+}
+
+.in-2:focus { 
+    border: 1.5px solid rgb(172, 172, 172);     
+    outline: 0;
+}
+
+textarea {
+
+    padding: 10px;
+    width: 750px;
+    height: 136px;
+
+    resize: none;
+    font-family: $serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    margin: 15px auto 0;
+
+    @media (max-width: $phone) {
+        height: 230px;
+        font-size: 35px;
+
+        margin: 0;
+    }
+}
+
+textarea:focus {
+    border: 1.5px solid rgb(172, 172, 172);     
+    outline: 0;
+}
+
+textarea::placeholder {
+    font-family: $serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    @media (max-width: $phone) {
+        font-size: 35px;
+    }
+}
+
+.button {
+    margin-top: 45px;
+
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: $phone) {
+        margin-top: 0;
+    }
+
+        button {
+            width: 232px;
+            height: 46px;
+
+            background-color: $grey;
+            border: none;
+
+            font-family: $serif;
+            font-size: 22px;
+            font-weight: 400;
+
+
+            @media (max-width: $phone) {
+                font-size: 40px;
+                font-weight: 400;
+                padding: 20px 120px;
+
+                width: inherit;
+                height: inherit;
+
+                margin-top: 20px;
+            }
+        }
+
+        button:focus {
+            border: 0.5px solid #acacac;     
+            outline: 0;
+        }
+}

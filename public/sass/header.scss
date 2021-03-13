@@ -1,0 +1,159 @@
+header {
+    background-image: url(/images/header-back.jpg);
+    background-size: cover;
+
+    background-position: calc(100%);
+
+
+    padding-bottom: 12rem;
+
+    @media (max-width: $tablet) {
+        padding-right: 30px;
+        width: 993px;
+        padding-left: 30px;
+    } 
+}
+
+.header-start {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 8rem;
+    padding-top: 1.5rem;
+}
+
+.header-logo {
+    font-family: $magic-font;
+    font-size: 2rem;
+    font-weight: 400;
+
+    @media (max-width: $tablet) {
+        font-size: 3rem;
+    }
+
+    @media (max-width: $phone) {
+        font-size: 6rem;
+    }
+}
+
+
+.header-sent {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 9rem;
+
+    @media (max-width: $tablet) {
+        width: 11rem;
+    }
+
+    @media (max-width: $tablet) {
+        width: inherit;
+    }
+
+    img {
+        width: 2rem;
+
+        @media (max-width: $tablet) {
+            width: 3rem;
+        }
+
+        @media (max-width: $phone) {
+            width: 6rem;
+        }
+
+    }
+
+     p {
+         margin-top: 0.7rem;
+
+         font-family: $lora;
+         font-size: 1.1rem;
+         text-decoration: underline;
+
+         @media (max-width: $tablet) {
+            font-size: 1.3rem;
+        }
+
+        @media (max-width: $phone) {
+            display: none;
+        }
+     }
+}
+
+.header-block {
+    display: flex;
+
+    .header-title {
+        width: 410px;
+
+        @media (max-width: $phone) {
+            width: 800px;
+        }
+
+        h2 {
+            margin-bottom: 1.6rem;
+
+            font-family: $lora;
+            font-size: 2.5rem;
+            font-weight: 700;
+
+            @media (max-width: $phone) {
+                font-size: 5.5rem;
+                margin-bottom: 5.6rem;
+            }
+        }
+
+        button {
+            font-family: $lora;
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 0.55px;
+
+            letter-spacing: 0.55px;
+
+            box-shadow: 0 0 14px 3px rgba(0, 0, 0, 0.05);
+            background-color: #ffffff;
+            opacity: 0.8;
+            border: none;
+
+            padding: 0.6rem 1.7rem;
+
+            @media (max-width: $phone) {
+                font-size: 45px;
+            }
+
+            &:hover {
+                background-color:#acacac;
+            }
+        }
+    }
+
+    .header-image {
+        position: relative;
+        right: 2rem;
+
+        @media (max-width: $phone) {
+            display: none;
+        }
+    }
+}
+
+.link-header {
+    margin-bottom: 80px;
+    margin-top: -60px;
+
+    text-align: center;
+
+
+    img {
+        @media (max-width: $phone) {
+            width: 70px;
+        }
+    }
+
+
+    @media (max-width: $tablet) {
+        width: 993px;
+    }
+}

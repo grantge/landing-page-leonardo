@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=PT+Serif:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Christmas Script C";
+    src: url('/fonts/Christmas_ScriptC.ttf')    
+}
+
+// Fonts
+
+$magic-font: 'Christmas Script C';
+$lora: 'Lora', serif;
+$serif: 'Amaranth', sans-serif;
+
+// Colors
+
+$black: #000000;
+$white: #ffffff;
+$grey: #dddddd;
+
+// Media
+
+$tablet: 769px;
+$phone: 480px;

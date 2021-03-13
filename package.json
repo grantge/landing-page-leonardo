@@ -1,0 +1,14 @@
+{
+  "name": "leonardo-landing",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "grantge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
