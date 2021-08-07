@@ -1,2 +1,2 @@
 # landing-page-leonardo
-clean landing page
+clean landing page using HTML, CSS
